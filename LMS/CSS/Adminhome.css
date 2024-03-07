@@ -1,0 +1,24 @@
+﻿
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('../images/flat-lay-workstation-with-copy-space-laptop.jpg');
+    background-size: cover; /* Adjust as needed */
+    background-position: center center; /* Adjust as needed */
+    background-attachment: fixed; /* This will make the background fixed while scrolling */
+}
+
+.container {
+    max-width: 1200px; /* Adjust the max-width as needed */
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    color: #333; 
+    background-color:#ffffff;/* Set the color for the heading */
+}
+
+/* Additional styling for your page content can be added here */

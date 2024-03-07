@@ -1,0 +1,51 @@
+﻿/* Add this CSS to your existing CSS file or create a new one */
+
+/* Style for the student profile container */
+.student-profile {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the profile details */
+.profile-details {
+    margin-bottom: 20px;
+}
+
+/* Style for the issued books section */
+.issued-books {
+    margin-top: 20px;
+}
+
+    /* Style for the header in the issued books section */
+    .issued-books h3 {
+        color: #333;
+    }
+
+/* Style for the GridView in the issued books section */
+#gvIssuedBooks {
+    margin-top: 10px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+    #gvIssuedBooks th, #gvIssuedBooks td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+/* Style for the total books section */
+.total-books {
+    margin-top: 20px;
+}
+
+/* Style for the footer */
+.footer {
+    margin-top: 50px;
+    text-align: center;
+    color: #888;
+}

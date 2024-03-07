@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="LMS.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Library Management System</title>
+    <link href="CSS/sitemaster.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    </head>
+<body>
+    <form id="form1" runat="server">
+     
+              <header>
+            <h1>Welcome to  Library Management System. </h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="Default.aspx">Home</a></li>
+                              <li class="nav-item dropdown">
+                    <a href="#" class="dropbtn">Student</a>
+                    <div class="dropdown-content">
+                        <a href="Login.aspx">Login</a>
+                        <a href="registration.aspx">Signup</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="dropbtn">Admin</a>
+                    <div class="dropdown-content">
+                        <a href="Login.aspx">Login</a>
+                   
+                    </div>
+
+                <li><a href="AboutUs.aspx">About Us</a></li>
+                  <li><a href="default.aspx">Logout</a></li>
+             
+            </ul>
+        </nav>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        
+    </form>
+</body>
+</html>

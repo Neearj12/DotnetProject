@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="admin.master.cs" Inherits="LMS.Admin.admin" %>
+
+<!DOCTYPE html>
+
+<html>
+
+<head runat="server">
+    <link href="../CSS/adminsite.css" rel="stylesheet" />
+    <title>Admin</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+        <div class="content">
+            <div class="container">
+                <div class="navbar">
+                    <ul>
+                        <li><a href="AdminHome.aspx">Home</a></li>
+                        <li><a href="Addbook.aspx">Add Book</a></li>
+                        <li><a href="Viewbook.aspx">View Books</a></li>
+                        <li><a href="Issuesbook.aspx">Issue Book</a></li>
+                        <li><a href="ViewStd.aspx">View Students</a></li>
+                        <li><a href="../default.aspx">Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+            </div>
+        </div>
+       
+    </form>
+</body>
+
+</html>

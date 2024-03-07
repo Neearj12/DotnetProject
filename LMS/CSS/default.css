@@ -1,0 +1,31 @@
+﻿
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* Replace 'path-to-your-image.jpg' with the actual path to your image */
+    background-image: url('../images/pexels-juan-pablo-serrano-arenas-877971.jpg');
+    background-size: cover; /* Adjust as needed */
+    background-position: center center; /* Adjust as needed */
+    background-attachment: fixed;
+}
+
+.signup-login-options {
+    text-align: center;
+    margin-top: 100px;
+}
+
+    .signup-login-options p {
+        margin-bottom: 15px;
+    }
+
+    .signup-login-options a {
+        color: #ffffff; /* Set the link color */
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+        .signup-login-options a:hover {
+            text-decoration: underline;
+        }

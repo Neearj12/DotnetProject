@@ -1,0 +1,30 @@
+﻿/* Styles for About Us Page */
+
+.about-us-content {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: azure;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+    .about-us-content h2 {
+        text-align: center;
+        color: #ac09f2;
+    }
+
+    .about-us-content p {
+        margin-bottom: 15px;
+        line-height: 1.5;
+        color:#06f18b;
+    }
+
+    .about-us-content ul {
+        list-style-type: disc;
+        margin-left: 20px;
+    }
+
+        .about-us-content ul li {
+            margin-bottom: 10px;
+     
+        }

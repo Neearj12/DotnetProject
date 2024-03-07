@@ -1,0 +1,76 @@
+﻿
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* Replace 'path-to-your-image.jpg' with the actual path to your image */
+    background-image: url('../images/pexels-juan-pablo-serrano-arenas-877971.jpg');
+    background-size: cover; /* Adjust as needed */
+    background-position: center center; /* Adjust as needed */
+    background-attachment: fixed;
+}
+h1{
+    color:aqua;
+}
+
+
+ul {
+   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+ 
+}
+
+p {
+    color: #012d2d;
+    
+}
+
+li {
+    float: left;
+    color:
+}
+
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+    a:hover {
+        background-color: #43aee2;
+    }
+
+/* Styles for dropdown */
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        display: block;
+        text-decoration: none;
+    }
+
+        .dropdown-content a:hover {
+            background-color: #e54040;
+        }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
